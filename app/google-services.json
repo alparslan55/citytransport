@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "425031435952",
+    "project_id": "citytransport-b268c",
+    "storage_bucket": "citytransport-b268c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425031435952:android:074d566e59799933a3dd75",
+        "android_client_info": {
+          "package_name": "com.alparslanguney.citytransport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425031435952-7siunafspimttcvdj98c9c4oibd1v2do.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alparslanguney.citytransport",
+            "certificate_hash": "1e3c39269b051cf6ae29889207f47b9d478af0b2"
+          }
+        },
+        {
+          "client_id": "425031435952-uerma3mgftm2hghjov0u99am8p463j1e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPt4AuVqEUHsoBhZnsQQW5pfbaVLwGKX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425031435952-uerma3mgftm2hghjov0u99am8p463j1e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
