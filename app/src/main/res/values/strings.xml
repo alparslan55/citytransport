@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">citytransport</string>
+    <string name="home">Anasayfa</string>
+    <string name="my_cards">Kartlar</string>
+    <string name="announcements">Duyuru</string>
+    <string name="home_menu_card_inquiry">Kart Sorgulama</string>
+    <string name="home_menu_departure_times">Hareket Saatleri</string>
+    <string name="home_menu_favourites">Favoriler</string>
+    <string name="home_menu_lines">Hatlar</string>
+    <string name="home_menu_sales_point">Satış Noktaları</string>
+    <string name="home_menu_stations">Duraklar</string>
 </resources>
