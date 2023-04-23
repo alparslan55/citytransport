@@ -4,6 +4,7 @@ package com.alparslanguney.citytransport.presentation.ui.home
 
 import androidx.compose.foundation.*
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.AccountCircle
@@ -66,16 +67,7 @@ fun Home(viewModel: HomeViewModel) {
         }
 
         ModalNavigationDrawer(drawerState = drawerState, drawerContent = {
-            BoxWithConstraints {
-                Column(
-                    modifier = Modifier
-                        .widthIn(min = 300.dp,max = this.maxWidth)
-                        .fillMaxHeight()
-                        .background(color = MaterialTheme.colorScheme.primary)
-                ) {
-                    Text(text = "ALPARSLAN")
-                }
-            }
+            MainDrawerContent()
         }) {
             Scaffold(topBar = {
                 HomeTopAppBar(topAppBarState, onDrawerClick = {
@@ -111,6 +103,20 @@ fun Home(viewModel: HomeViewModel) {
                         }
                     })
             }
+        }
+    }
+}
+
+@Composable
+private fun MainDrawerContent() {
+    BoxWithConstraints {
+        Column(
+            modifier = Modifier
+                .widthIn(min = 300.dp, max = this.maxWidth)
+                .fillMaxHeight()
+                .background(color = MaterialTheme.colorScheme.primary)
+        ) {
+
         }
     }
 }
@@ -281,6 +287,14 @@ fun AppBarTabItem(
 fun QrReadButtonPreview() {
     CitytransportTheme {
         QrReadButton()
+    }
+}
+
+@Composable
+@Preview(name = "Main Drawer Content Preview")
+fun MainDrawerContentPreview() {
+    CitytransportTheme {
+        MainDrawerContent()
     }
 }
 
